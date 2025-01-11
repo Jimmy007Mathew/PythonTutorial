@@ -4,7 +4,7 @@ deduc=int(input("Enter the total deductions:"))
 
 tax_income=gross_sal-deduc
 
-print("\nTaxable Income: ",tax_income)
+print("\nTaxable Income : ",tax_income)
 
 
 if(tax_income<=300000):
