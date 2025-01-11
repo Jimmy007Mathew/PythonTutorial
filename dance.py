@@ -40,4 +40,4 @@ try:
     print(min_moves(n, instructions))
 
 except ValueError:
-    print("Invalid input. Please make sure the first input is an integer, followed by strings of directions.")
+    print("Invalid input. Please make sure, followed by strings of directions.")
