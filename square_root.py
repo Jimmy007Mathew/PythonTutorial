@@ -1,3 +1,8 @@
 num=int(input("Enter the number:"))
-sqroot=num**0.5
-print("square root of ",num,"is",sqroot)
+
+guess= num/2
+while(abs(guess*guess - num) >= 0.00000001):
+    guess=guess -(guess **2 -num)/(2*guess)
+
+
+print(round(guess,5))
