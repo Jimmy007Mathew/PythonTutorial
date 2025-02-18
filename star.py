@@ -30,10 +30,16 @@ sides=int(input("Enter the number of stars"))
 size=int(input("Enter the size of star"))
 color=input("Enter the color")
 angle=360/sides
-t.goto(-100,200)
+
 t.pencolor(color)
+t.left(angle)
 for i in range(sides):
-  
-    star(size)
-    t.forward(size*4)  
+
+    t.forward(200)
     t.right(angle)
+    star(size)
+    t.goto(0,0)
+
+    
+ 
+
